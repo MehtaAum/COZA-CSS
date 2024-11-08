@@ -1,0 +1,805 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* navbar */
+.helpbar{
+    width: 100%;
+    height: 40px;
+    background-color: #1A1C1D;
+    display: flex;
+    justify-content: space-between;
+}
+.helpbar .barleft{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helpbar .barleft p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #b2b2b2;
+}
+.helpbar .barright{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+}
+.helpbar .barright .subright{
+    width: 123px;
+    height: 38px;
+    border-left: 0.5px solid rgb(101,101,101);
+    border-right: 0.5px solid rgb(101,101,101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helpbar .barright .subright2{
+    width: 121px;
+    height: 38px;
+    border-left: 0.5px solid rgb(101,101,101);
+    border-right: 0.5px solid rgb(101,101,101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helpbar .barright .subright3{
+    width: 65px;
+    height: 38px;
+    border-left: 0.5px solid rgb(101,101,101);
+    border-right: 0.5px solid rgb(101,101,101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helpbar .barright .subright4{
+    width: 74px;
+    height: 38px;
+    border-left: 0.5px solid rgb(101,101,101);
+    border-right: 0.5px solid rgb(101,101,101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helpbar .barright a{
+    color: #b2b2b2;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.helpbar .barright a:hover{
+    color: rgb(113,127,224);
+}
+/* navbar */
+/* hero & nav */
+.hero{
+    width: 100%;
+    height: 905px;
+    position: relative;
+}
+.hero .navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding-inline: 253px;
+}
+  /* navleft */
+.hero .navbar .navleft{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 65px;
+    z-index: 2;
+}
+.hero .navbar .navleft .logo{
+    background-image: url(./ASSET/logo.png);
+    width: 140px;
+    height: 17px;
+    background-size: cover;
+    margin-right: 30px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.hero .navbar .navleft a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(51,51,51);
+    transition: 0.3s;
+}
+.hero .navbar .navleft a:hover{
+    color: #6c7ae0;
+}
+  /* pinkbox */
+  .navbar .navleft .hot{
+    position: absolute;
+    bottom: 26px;
+    right: 275px;
+    width: 30px;
+    height: 12px;
+    background-color: rgb(247,72,119);
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+  /* navright */
+.hero .navbar .navright{
+    width: 48.6%;
+    height: inherit;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: relative;
+    z-index: 2;
+}
+.hero .navbar .navright i{
+    font-size: 23px;
+    font-weight: 400;
+    color: rgb(51,51,51);
+    transition: 0.3s;
+    margin-right: 30px;
+}
+.hero .navbar .navright i:hover{
+    color: #6c7ae0;
+    cursor: pointer;
+}
+.hero .navbar .navright .twobox{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(113,127,224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    right: 73px;
+    bottom: 18px;
+}
+.hero .navbar .navright .zerobox{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(113,127,224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+}
+.hero .navbar .navleft .specialhome{
+    color: #6c7ae0;  
+}  
+.hero .navbar .navleft .dropdown{
+    width: 39px;
+    height: 24px;
+}
+.hero .navbar .navleft .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 160px;
+    height: 100px;
+    padding-left: 10px;
+    background-color: white;
+    display: none;
+    color: #9b9b9b;
+    font-weight: 100;
+}
+.hero .navbar .navleft .content a{
+    text-decoration: none;
+}
+.hero .navleft .dropdown:hover .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 160px;
+    height: 100px;
+    padding-left: 10px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}    
+      /* hero */
+      .main-slider{
+        width: 300%;
+        height: 905px;
+        top: 0px;
+        position:absolute;
+        display: flex;
+        animation: slide 25s linear infinite ;
+      }
+      @keyframes slide{
+        0%{
+            left: 0%;
+        }
+        10%{
+            left: 0%;
+        }
+        20%{
+            left: -100%;
+        }
+        30%{
+            left: -100%;
+        }
+        40%{
+            left: -200%;
+        }
+        50%{
+            right: 0%;
+        }
+        60%{
+            right: 0%;
+        }
+        70%{
+            right: 0%;
+        }
+        80%{
+            right: -100%;
+        }
+        90%{
+            right: -100%;
+        }
+        100%{
+            right: -200%;
+        }
+      }
+      .main-slider .slider1{
+        width: 100%;
+        height: inherit;
+        background-image: url(./ASSET/slide-01.jpg);
+        animation: fade1 4.2s linear infinite;
+        display: flex;
+        align-items: center;
+        padding-left: 230px;
+      }
+      @keyframes fade1{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+      }
+      .main-slider .slider2{
+        width: 100%;
+        height: inherit;
+        background-image: url(./ASSET/slide-02.jpg);
+        animation: fade1 4.6s linear infinite;
+        display: flex;
+        align-items: center;
+        padding-left: 230px;
+      }
+      .main-slider .slider3{
+        width: 100%;
+        height: inherit;
+        background-image: url(./ASSET/slide-03.jpg);
+        animation: fade2 9s linear infinite;
+        display: flex;
+        align-items: center;
+        padding-left: 230px;
+      }
+      @keyframes fade2{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .main-slider .infoslider{
+        width: 600PX;
+        height: 200PX;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .main-slider .infoslider h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .main-slider .infoslider h2{
+        font-size: 60px;
+        font-weight: 500;
+        font-family: "Playfair Display", serif;
+        margin-bottom: 30px;
+    }
+    .main-slider .infoslider button{
+        width: 161px;
+        height: 46px;
+        background-color: #6c7ae0;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        font-size: 15px;
+        transition: 0.1s;
+    }
+    .main-slider .infoslider button:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+/* hero & nav */
+/* div1 */
+.div1{
+    width: 100%;
+    height: 451px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1 .subdiv1,
+.div1 .subdiv2,
+.div1 .subdiv3
+{
+    width: 428px;
+    height: 289px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 26px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 0px 1px;
+    transition: 0.3s;
+}
+.div1 .subdiv1:hover,
+.div1 .subdiv2:hover,
+.div1 .subdiv3:hover
+{
+-webkit-box-shadow:inset 10px 10px 5px 200px rgba(108,122,224,0.80);
+-moz-box-shadow:inset 10px 10px 5px 200px rgba(108,122,224,0.80);
+box-shadow:inset 10px 10px 5px 200px rgba(108,122,224,0.80);
+}
+.div1 .subdiv1{
+    background-image: url(./ASSET/banner-01.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div1 .subdiv1 h1,
+.div1 .subdiv2 h1,
+.div1 .subdiv3 h1
+{
+ font-size: 28px;
+ font-weight: 700;
+ color: rgb(51,51,51);
+}
+.div1 .subdiv1 p,
+.div1 .subdiv2 p,
+.div1 .subdiv3 p
+{
+ font-size: 14px;
+ font-weight: 400;
+ color: rgb(82, 82, 82);
+}
+.div1 .subdiv2{
+    background-image: url(./ASSET/banner-02.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div1 .subdiv3{
+    background-image: url(./ASSET/cap.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div1 .subdiv1:hover h1,
+.div1 .subdiv2:hover h1,
+.div1 .subdiv3:hover h1,
+.div1 .subdiv1:hover P,
+.div1 .subdiv2:hover P,
+.div1 .subdiv3:hover P
+{
+    color: white;
+}
+.div1 h5{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 150px;
+    opacity: 0;
+    transition: 0.5s;
+    color: white;
+}
+.div1 .subdiv1:hover h5,
+.div1 .subdiv2:hover h5,
+.div1 .subdiv3:hover h5
+{
+   transform: translateY(-100%);
+   opacity: 1;
+}
+.div1 .linesub{
+    width: 82px;
+    height: 2px;
+    opacity: 0;
+    transition: 0.5s;
+    transform: scale(0.01);
+    margin-top: -22px ;
+}
+.div1 .subdiv1:hover .linesub,
+.div1 .subdiv2:hover .linesub,
+.div1 .subdiv3:hover .linesub
+{
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+  transform: scale(1);
+}
+/* div1 */
+/* div2 */
+.div2{
+    width: 100%;
+    height: 2368px;
+    padding-left: 255px;
+    padding-right: 226px;
+    padding-top: 5px;
+}
+.div2 h1{
+    font-size: 36px;
+    font-weight: 700;
+    color:rgb(34,34,34);
+    text-transform: uppercase;
+    margin-left: 14px;
+}
+.div2 .div2nav{
+    margin-left: 16px;
+    width: 1348px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.div2 .div2nav .nav2left{
+    width: 35.5%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+#all{
+    color:  rgb(51,51,51);
+}
+.div2 .div2nav .nav2left #all::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgb(51,51,51);
+    top: 20px;
+    position: absolute;
+}
+.div2 .div2nav .nav2left a{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(143,136,136);
+    position: relative;
+    transition: 0.2s;
+    height: 30px;
+}
+.div2 .div2nav .nav2left a:hover{
+    color:  rgb(51,51,51);
+}
+.div2 .div2nav .nav2left a::before{
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: rgb(51,51,51);
+    top: 20px;
+    position: absolute;
+    transition: 0.3s;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.div2 .div2nav .nav2left a:hover::before{
+        width: 100%;
+} 
+.div2 .div2nav .nav2right{
+    width: 30%;
+    height: inherit;
+    padding-top: 15px;
+    display: flex;
+    justify-content: end;
+}
+.div2 .div2nav .nav2right #filter{
+    width: 94px;
+    height: 40px;
+    margin-right: 7px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 0px 1px;
+    border-radius:2px ;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.div2 .div2nav .nav2right #filter i{
+    font-size: 17px;
+    margin-right: 5px;
+}
+.div2 .div2nav .nav2right #search2{
+    width: 111px;
+    height: 40px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 0px 1px;
+    border-radius:2px ;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.div2 .div2nav .nav2right #search2 i{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.div2 .div2nav .nav2right #search2:hover,
+.div2 .div2nav .nav2right #filter:hover{
+    background-color: #6c7ae0;
+    color: white;
+    cursor: pointer;
+}
+    /* main content */
+.div2 .content{
+    width: 100%;
+    height: 2035px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div2 .content .subcontent{
+    width: 345px;
+    height: 486px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div2 .content .subcontent .img1{
+    width: 315px;
+    height: 390px;
+    border: 0.001px solid white;
+    overflow: hidden;
+    position: relative;
+}
+.div2 .content .subcontent .img1 #quick{
+    width: 139px;
+    height: 40px;
+    position: absolute;
+    left: 88px;
+    color: #333;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    transition: 0.4s;
+}
+.div2 .content .subcontent .img1 #quick:hover{
+    background-color: #1A1C1D;
+    color: white;
+    cursor: pointer;
+}
+.div2 .content .subcontent .img1:hover #quick{
+    transform: translateY(-160%);
+}
+.div2 .content .subcontent .img1 img{
+    width: 315px;
+    height: 390px;
+    transition: 0.3s;
+}
+.div2 .content .subcontent .img1 img:hover{
+    transform: scale(1.1);
+}
+.div2 .content .subcontent .infocontent{
+    width: 315px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(143,136,136);
+    transition: 0.2s;
+}
+.div2 .content .subcontent .infocontent p:hover{
+    color: #6c7ae0;
+    cursor: pointer;
+}
+.div2 .content .subcontent .infocontent .like{
+    width: 19px;
+    height: 19px;
+    background-image: url(./ASSET/like.png);
+    background-size: cover;
+    transition: 0.2s;
+}
+.div2 .content .subcontent .infocontent .like:hover{
+    width: 19px;
+    height: 19px;
+    background-image: url(./ASSET/like\ fill.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.div2 .content .subcontent .money{
+    width: 315px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    cursor: context-menu;
+}
+    /* LASTBTN */
+     .btnlast{
+        width: 1390px;
+        height: 91px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+     }
+     .btnlast button{
+        width: 179px;
+        height: 46px;
+        border-radius:40px ;
+        background-color: rgb(230,230,230);
+        color: #1A1C1D;
+        transition: 0.3s;
+        border: none;
+        font-size: 15px;
+        font-weight: 500;
+     }
+     .btnlast button:hover{
+        background-color: #1A1C1D;
+        color: white;
+        cursor: pointer;
+     }
+/* div2 */
+/* footer */
+.footer{
+    width: 100%;
+    height: 460px;
+    background-color: rgb(34,34,34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+.footer .subfoot{
+    width: 1380px;
+    height: 244px;
+    display: flex;
+}
+.footer .subfoot a{
+    text-decoration: none;
+    color: rgb(178,178,178);
+    font-size: 13px;
+    margin-top: 18px;
+    transition: 0.3s;
+}
+.footer .subfoot a:hover{
+    color: #6c7ae0;
+}
+.footer .subfoot .foot1,
+.footer .subfoot .foot2,
+.footer .subfoot .foot3,
+.footer .subfoot .foot4
+{
+    width: 345px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    color: rgb(178,178,178);
+    font-size: 13px;
+}
+.footer .subfoot .foot1 h1,
+.footer .subfoot .foot2 h1,
+.footer .subfoot .foot3 h1,
+.footer .subfoot .foot4 h1
+{
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.footer .subfoot .foot1, 
+.footer .subfoot .foot2
+{
+    justify-content: center;
+}
+.footer .subfoot .foot3 {
+    justify-content: space-around;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+.footer .subfoot .foot3 p{
+    line-height: 25px;
+}
+.footer .subfoot .foot3 i
+{
+    font-size: 19px;
+    color: rgb(178,178,178);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.footer .subfoot .foot3 i:hover{
+    color: #6c7ae0;
+    cursor: pointer;
+}
+.footer .subfoot .foot4{
+    padding-top: 20px;
+}
+.footer .subfoot .foot4 button{
+    width: 179px;
+    height: 46px;
+    background-color: #6c7ae0;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+.footer .subfoot .foot4 input{
+    width: 315px;
+    height: 31px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 18px;
+}
+.footer .subfoot .foot4 .inputdot{
+    width: 315px;
+    height: 2px;
+    background-color: rgb(178,178,178);
+    transition: 0.5s;
+}
+.footer .subfoot .foot4:hover .inputdot{
+    background-color: #6c7ae0;
+}
+.footer .subfoot .foot4 button:hover{
+    background-color: white;
+    color: #6c7ae0;
+    cursor: pointer;
+}
+.footer .subfoot .foot4 input::placeholder{
+    font-size: 13px;
+    color:rgb(178,178,178) ;
+}
+.footer .credit{
+    width: 1380px;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer img{
+    width: 35px;
+    height: 23px;
+    cursor: pointer;
+}
+.footer .credit p{
+    font-size: 13px;
+    font-weight: 400;
+    color:rgb(178,178,178);
+    margin-top: 10px;
+}
+.footer .credit a{
+  text-decoration: none;
+  color:rgb(18,123,255);
+}
+/* footer */
